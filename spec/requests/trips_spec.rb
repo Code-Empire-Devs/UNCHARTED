@@ -23,7 +23,8 @@ RSpec.describe "Trips", type: :request do
       trip = JSON.parse(response.body)
       expect(response).to have_http_status(200)
       expect(trip.length).to eq 1
-      
+    end
+  end
 
   describe "POST /create" do
     

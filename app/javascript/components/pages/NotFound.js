@@ -15,7 +15,7 @@ class NotFound extends Component {
         >
         </img>
         <div className="centered">
-          <h3> 404</h3> 
+          <h3>404</h3> 
           <p>Oops, your destination is out of this world...</p>
         </div>
       </div>

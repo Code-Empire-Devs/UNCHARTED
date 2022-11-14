@@ -8,6 +8,6 @@ describe("When TripIndex renders", () => {
   it("displays a heading", () => {
     const tripIndex = shallow(<TripIndex />)
     const tripIndexHeading = tripIndex.find("h3")
-    expect(tripIndexHeading.text()).toEqual("Review My Trips")
+    expect(tripIndexHeading.text()).toEqual("My Adventures")
   })
 })

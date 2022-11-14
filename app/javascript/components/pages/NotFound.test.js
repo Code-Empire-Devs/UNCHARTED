@@ -8,7 +8,7 @@ describe("When NotFound renders", () => {
   it("displays a heading", () => {
     const notFound = shallow(<NotFound />)
     const notFoundHeading = notFound.find("h3")
-    expect(notFoundHeading.text()).toEqual("OOPS, PAGE NOT FOUND!")
+    expect(notFoundHeading.text()).toEqual("404")
   })
 })
 

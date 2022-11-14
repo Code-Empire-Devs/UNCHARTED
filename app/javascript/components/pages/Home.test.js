@@ -19,12 +19,12 @@ describe("When Home renders", () => {
     it("displays a heading", () => {
       const home = shallow(<Home />)
       const homeHeading = home.find("h1");
-      expect(homeHeading.text()).toEqual("UNCHARTED");
+      expect(homeHeading.text()).toEqual("Wanna Get Away?");
     })
 })
 
 it("displays text", () => {
     const home = shallow(<Home />)
     const homeDescription = home.find("p")
-    expect(homeDescription.text()).toEqual("Revisiting trip highlights and those carefree moments has never been easier! For the first time ever, avid or aspiring travelers can now archive previous trips using photos and personal details. 'Uncharted' combines travel mapping and the art of journaling into an interactive life story experience. Document old memories, while creating new ones all in place! So whether you want a way to keep track of already visited destinations, searching for location inspiration, or are looking for resources on how to make traveling less complicated and more affordable; 'Uncharted' has your back.")
+    expect(homeDescription.text()).toEqual("'Uncharted' combines travel mapping and the art of journaling into an interactive life story experience... Revisiting trip highlights and those carefree moments has never been easier! Document old memories, while creating new ones all in place!")
 })
