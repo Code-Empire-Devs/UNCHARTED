@@ -21,8 +21,8 @@ describe("When Footer renders", () => {
     })
 
   it("displays the organization in the footer", () => {
-    const footerText = footer.find("div")
-    expect(footerText.text()).toEqual("©Uncharted 2022 | Code Empire")
+    const footerText = footer.find("footer")
+    expect(footerText.text()).toEqual("About Us©Uncharted 2022 | Code EmpireExternal Resources")
   })
   
   it("displays an about us and external resources link", () => {

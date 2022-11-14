@@ -13,11 +13,11 @@ describe("When ExternalResources renders", () => {
 
   it("displays a heading", () => {
     const externalResourcesRenderHeading = externalResourcesRender.find("h2")
-    expect(externalResourcesRenderHeading.text()).toEqual("External Resources")
+    expect(externalResourcesRenderHeading.text()).toEqual("Making traveling simple and more affordable!")
   })
 
-  it("displays 3 sections with H6 headings", () => {
-    const externalResourcesCards = externalResourcesRender.find("h6")
+  it("displays 3 sections", () => {
+    const externalResourcesCards = externalResourcesRender.find("NavItem")
     expect(externalResourcesCards.length).toEqual(3)
   })
 })
